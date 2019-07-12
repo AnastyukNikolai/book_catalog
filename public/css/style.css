@@ -1,0 +1,260 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin-bottom: 10vh;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10vh; /*высота футера будет зависеть от высоты экрана*/
+}
+/* чтобы весь футер заливался */
+footer .row{
+    background-color: #193441;
+}
+
+
+div.renewal-bottom {
+    width: 100%;
+}
+
+
+
+
+/*-------------------Menu---------------*/
+
+div.log-reg {
+    display:inline-block;
+}
+
+
+
+
+/*-------------------MainPage---------------*/
+
+div.book-block {
+    margin-bottom: 25px;
+}
+
+div.vote-default {
+    width: 40%;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+div.watch {
+    display: inline-block;
+    width: 55%;
+
+}
+
+
+img.ico-voice {
+    width: 20%;
+    height: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
+    display:inline-block;
+    vertical-align:center;
+}
+
+
+img.ico-main {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  display:inline-block;
+  vertical-align:bottom;
+}
+
+img.book-img-main {
+    width: 250px;
+    height: 350px;
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+
+
+/*-------------------BookPage---------------*/
+
+/*---------------------------*/
+
+img.book-img {
+    width: 300px;
+    height: 400px;
+    margin-top: 25px;
+}
+
+div.book_read {
+    padding: 4px;
+}
+
+img.book-info-icn {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/*---------------------------*/
+
+div.book__cont {
+    font-size: 17px;
+}
+
+div.book__info {
+    margin: 10px;
+
+}
+
+div.book__block-name {
+    display:inline-block;
+}
+
+div.book__block-time {
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+div.book__block-genre {
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+div.vote-book {
+    display:inline-block;
+    vertical-align:bottom;
+}
+/*---------------------------*/
+
+div.book__description {
+    margin-top: 25px;
+    padding: 15px;
+    border-style: dashed;
+    border-color: #218838;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+div.book__description-heading {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+/*---------------------------*/
+
+div.book_content {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+div.book_content-title {
+    padding: 20px;
+    font-size: 20px;
+    background-color: #31373e;
+    color: snow;
+}
+
+div.book_content-title a {
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+a.book_chapter-title {
+    color: #218838;
+    width: 33%;
+}
+
+a.book_chapter-title:hover {
+    color: black;
+    text-decoration: none;
+}
+
+a.btn-link {
+    font-size: 20px;
+    width: fit-content;
+}
+
+div.book_content-table {
+    margin-bottom: 25px;
+}
+
+div.book_item-text {
+    background-color: #38c172;
+    border-radius: 100px;
+    transition: 0s;
+    color: snow;
+}
+
+div.book_content-item {
+    margin-top: 25px;
+}
+
+div.chapter_add_btn {
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+div.chapter_add_anons_btn {
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+div.book_item-text {
+    margin: 10px;
+}
+
+div.book__item-wrapper {
+    display:inline-block;
+    vertical-align:bottom;
+    width: 60%;
+}
+
+div.book_chapter-title {
+    display:inline-block;
+    vertical-align:bottom;
+    width: 30%;
+}
+
+div.book-action {
+    display:inline-block;
+    vertical-align:bottom;
+    text-align: right;
+    width: 35%;
+}
+
+div.book-author-control {
+    display:inline-block;
+    vertical-align:bottom;
+    width: 60%;
+}
+
+div.book_item-btn {
+    display:inline-block;
+    vertical-align:bottom;
+    text-align: right;
+    padding: 4px;
+}
+
+#disqus_thread {
+
+}
+
+
+/*---------------------------*/
+
+
+div.book_add-btn {
+    display:inline-block;
+    vertical-align:bottom;
+}
+
+.assessment_icn {
+    display:inline-block;
+    vertical-align:bottom;
+}
+
